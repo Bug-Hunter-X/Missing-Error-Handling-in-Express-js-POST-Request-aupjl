@@ -1,0 +1,2 @@
+# Missing Error Handling in Express.js POST Request
+This repository demonstrates a common error in Express.js applications: missing error handling for POST requests.  The example shows a server endpoint that accepts user data but fails to handle cases where the request body is malformed or missing.  This can lead to unexpected server behavior or crashes. The solution demonstrates proper error handling using try...catch blocks and appropriate status codes.
